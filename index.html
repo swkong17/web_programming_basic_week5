@@ -30,7 +30,7 @@ div { border: 1px solid red; background-color: rgb(174, 30, 210); margin:20px}
     <div id='r4'> </div>  
     <p>-----------------------------------------------------------------------------------------------------------------------------</p>
     <h1>폼 예제</h1>
-    <form>  
+    <form  method="get">  
         <input type='text' name="t1" value="">id:<br>
         <input type='password' name="q1" value="">pw:<br>
         <input type='button' name="w1" value="save"><br>
@@ -40,6 +40,16 @@ div { border: 1px solid red; background-color: rgb(174, 30, 210); margin:20px}
         <input type='radio' name="h1" value="j2">pi<br> /*radio는 같은 이름 사용하기*//* 이것은 CSS 주석입니다. 웹 브라우저는 이 내용을 읽지 않습니다. */
         <hr>
         <input type='hidden' name="h1" value="jv1"><br>
+        <hr>
+        좋아하는 과일:
+        <select name="s1">
+            <option value="sv1">사과</option>
+            <option value="sv2">포도</option>
+            <option value="sv3">망고</option>
+            <option value="sv4">배</option>
+        </select>
+        <hr>
+        <textarea name = 't1' cols="100" row="10">적어주세요:</textarea>
         <hr>
         <input type='file' name="f1" value="ff1"><br>
         <input type='submit' name="s1" value="전송1"><br>
